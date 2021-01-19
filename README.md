@@ -50,3 +50,7 @@ kubectl create namespace dev
 ```yml
 kubectl config set-context $(kubectl config current-context) --namespace=dev
 ```
+
+```yml
+kubectl config set-context --current --namespace lab
+```
